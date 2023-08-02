@@ -1,0 +1,98 @@
+/*cuenta*/
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:century gothic, 'Poppins', sans-serif;
+}
+
+/*logo*/
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+nav a{
+  text-decoration: none;
+}
+.logo{
+  color: white;
+  font-size: 30px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-weight:bolder;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+}
+.logo:hover{
+  color: #f9004d;
+}
+span{
+  color: #f9004d;
+}
+span:hover{
+  color: white;
+}
+
+.fondo{
+  background-color: black;
+}
+.register{
+  border: 2px solid #f9004d;
+  width: 400px;
+  background-color: #030303;
+  padding: 25px;
+  margin: auto;
+  margin-top: 8px;
+  border-radius:5px;
+  font-family:'calibri';
+  color: rgb(245, 241, 241);
+}
+.register h4{
+  font-size: 23px;
+  margin-bottom: 20px;
+  }
+.controls{
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  border: 2px solid #f9004d;
+  font-family: 'calibri';
+  font-size: 18px;
+}
+.register p {
+  height: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+a{
+  color:#f9004d;
+}
+.register a:hover {
+  color:#f8f4f5;
+  text-decoration:underline; 
+  text-decoration: none;
+}
+.botons{
+  width: 100%;
+  background: #fcf8f8;
+  border: 2px solid #f9004d;
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(5, 5, 5);
+  margin: 16px 0;
+  font-size: 16px;
+  font-weight: 900;
+
+}
+.botons:hover{
+  background-color: #030303;
+  color: #f9004d;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Iniciar Sección</title>
+
+    <!--animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/inicioseccion.css">
+    <!--logo-->
+    <link rel="icon" href="https://i.postimg.cc/7Ygd8F5w/icono.png">
+</head>
+
+<body class="fondo">
+
+    <!--logo-->
+    <div class="secc">
+        <nav>
+            <a href="index.html">
+            <h2 class="logo" data-aos="zoom-in" data-aos-delay="100" data-aos="zoom-in" data-aos-duration="1000"><span>ma</span><samp>cano</samp></h2>
+        </a>
+        </nav>
+    </div>
+
+    <!--IntroduccionContraseña-->
+    <div data-aos="zoom-in" data-aos-delay="100" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="todo">
+            <section class="register">
+                <h4 data-aos="zoom-in" data-aos-delay="50" data-aos="zoom-in">Contraseña</h4>
+                <input class="controls" type="password" name="correo" id="correo" placeholder="Contraseña">
+                
+                <!--terminosYCondiciones-->
+                <p>
+                    Estoy de Acuerdo con los <a href="condiciones.html"> Terminos y Condiciones</a>
+                </p>
+
+                <!--botonSiguente-->
+                <a href="index.html"><input onclick="pagina()" class="botons" type="submit" value="Siguente"></a>
+                <!--botonCrearCuenta-->
+                <p class="c"><a href="crearcuenta.html">Crear Cuenta</a></p>
+            </section>
+        </div>
+    </div>
+
+    <!--animaciones-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="/java/buscador.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Crear Cuenta</title>
+    
+    <!--animaciones-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/crearcuenta.css">
+
+    <!--icono-->
+    <link rel="icon" href="https://i.postimg.cc/7Ygd8F5w/icono.png">
+
+</head>
+<body class="fondo">
+
+    <!--logo-->
+    <div class="secc">
+        <nav>
+            <a href="index.html">
+                <h2 class="logo" data-aos="zoom-in" data-aos-delay="100" data-aos="zoom-in" data-aos-duration="1000"><span>ma</span><samp>cano</samp></h2>
+            </a>
+        </nav>
+    </div>
+
+
+    <!--FormularioDeRegistro-->
+    <div data-aos="zoom-in" data-aos-delay="100" data-aos="zoom-in" data-aos-duration="1000">
+        <section class="register">
+            <h4>Crear Cuenta</h4>
+            <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nombre">
+            <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Apelido">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Correo Electónico">
+            <input class="controls" type="password" name="correo" id="correo" placeholder="Contraseña">
+            <input class="controls" type="password" name="correo" id="correo" placeholder="Confirmación de Contraseña">
+            
+            <!--terminosYCondiciones-->
+            <p class="p">
+                Estoy de Acuerdo con los <a href="condiciones.html"> Terminos y Condiciones</a>
+            </p>
+
+            <!--botonSiguente-->
+            <a href="index.html"><input onclick="pagina()" class="botons" type="submit" value="Siguente"></a>
+            <!--botonInicioSeccion-->
+            <a href="iniciarseccion.html"><p>¿Ya tienes una Cuenta?</p></a>
+        </section>
+    </div>
+
+    <!--ANIMACIONES-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="/java/buscador.js"></script>
+</body>
+</html>
